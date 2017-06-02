@@ -1,31 +1,24 @@
 #  Android Clean Code Template Tool - Auto generate needed files from Android Studio
-#### Inspired from [Clean Architecture][1] from Uncle Bob, [Google Android samples] [3]  and [Clean Swift] [2]
+#### Inspired from [Clean Architecture][1] from Uncle Bob, [Google Android samples][3]  and [Clean Swift][2]
 ##### This design is chosen with a singular focus - testablity.
-##### Example of this template in action [here] [5]
+##### Example of this template in action [here][5]
 
 ## Quick Start
-*  Clone and copy thee contents to the following location your  Android Studio
-
+*  Clone this project and copy the contents to the following location in your Android Studio
 
 * Windows : Navigate to the location of the templates folder :  
 
-         ``` {ANDROID_STUDIO_LOCATION}/plugins/android/lib/templates/other/
          ```
-
+         cd {ANDROID_STUDIO_LOCATION}/plugins/android/lib/templates/other/
+         ```
 
 * MacOS:  Navigate to the location of the templates folder :
         ```
         cd /Applications/Android\ Studio.app/Contents/plugins/android/lib/templates/other/
         ```
 
-
-
 *  Restart Android Studio - It should work with out any issues
 
-Note: OS X Users
-1. If Android Studio refuse to work with out .m2 folder at root level, create such folder and execute 'sudo chmod -R 766 .m2'
-
-2. Start the Android Studio as sudo user ( Go to Application folder and run 'sudo open Android\ Studio.app/' )
 
 ### Contribute
 Welcome to contribute, feel free to change and open a PR.
@@ -40,7 +33,7 @@ Welcome to contribute, feel free to change and open a PR.
 
 
 #### Credits
-I'd also like to add that this project ideas aren't new in any way. Credit has to be given to the following projects, listed in autobiographical order.
+This project ideas aren't new in any way. Credit has to be given to the following projects, listed in autobiographical order.
 
 [Clean Architecture][1]
 
