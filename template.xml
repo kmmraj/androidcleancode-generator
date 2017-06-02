@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<template
+    format="5"
+    revision="3"
+    name="Android Clean Code"
+    description="Creates a classes for Android Clean Code- Test driven development."
+    >
+
+    <category value="Other" />
+
+
+
+    <parameter
+        id="classname"
+        name="Screen Name"
+        type="string"
+        constraints="class|nonempty|unique"
+        default="Home"
+        help="The name of the screen to create" />
+
+        <thumbs>
+            <!-- default thumbnail is required -->
+            <thumb>acc_android_studio.png</thumb>  
+        </thumbs>
+
+
+    <globals file="globals.xml.ftl" />
+    <execute file="recipe.xml.ftl" />
+
+</template>
