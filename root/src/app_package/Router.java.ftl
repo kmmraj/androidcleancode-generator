@@ -19,7 +19,7 @@ interface ${classname}RouterInput{
 public class ${classname}Router implements ${classname}RouterInput, AdapterView.OnItemClickListener {
 
     public static String TAG = ${classname}Router.class.getSimpleName();
-    public WeakReference<HomeActivity> activity;
+    public WeakReference<${classname}Activity> activity;
 
 
 
